@@ -1,0 +1,152 @@
+body {
+  font-family: Inter, sens-serif;
+}
+
+.App {
+  text-align: center;
+  background-color: #1A1B21;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.info--header {
+  color:white;
+  font-weight: 700;
+  font-size:25px;
+  margin-bottom: 0;
+}
+
+.info--img {
+  width: 317px;
+  height: 317px;
+}
+
+.info--subtitle {
+  color:#F3BF99;
+  font-weight: 400;
+  font-size:13px;
+  margin-top:7px;
+  margin-bottom:0;
+}
+
+.info--subtitle2 {
+  margin-top:8px;
+  font-weight: 400;
+  font-size:10px;
+  color:white;
+}
+
+.info--btn-email {
+  background-color: white;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 9px 28px 9px;
+  width: 115px;
+  border:0;
+  border-radius: 6px;
+}
+
+.info--btn-social {
+  margin-left:17px;
+  background-color: #5093E2;
+  color:white;
+  font-weight: 400;
+  font-size:14px;
+  padding: 9px 18px;
+  width:115px;
+  border:0;
+  border-radius: 6px;
+}
+
+.info--icon {
+  margin-right:10px;
+}
+
+.about--container {
+  margin-top:33px;
+  margin-left:36px;
+  margin-right:34px;
+  text-align: left;
+  color:white;
+}
+
+.about--heading {
+  margin-top:0;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.about--content {
+  font-weight: 400px;
+  font-size: 10px;
+  line-height: 15px;
+}
+
+.interests--container {
+  margin-top:33px;
+  margin-left:36px;
+  margin-right:34px;
+  text-align: left;
+  color:white;
+  padding-bottom: 24px;
+}
+
+.interests--heading {
+  margin-top:0;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.interests--content {
+  font-weight: 400px;
+  font-size: 10px;
+  line-height: 15px;
+}
+
+.footer--container {
+  height: 64px;
+  background-color: #161619;
+}
+
+.footer--icon {
+  height: 25px;
+  width: 25px;
+  background-color: #918E9B;
+  border:0;
+  margin-top:19px;
+  margin-bottom: 20px;
+  margin-right: 24px;
+}

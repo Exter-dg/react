@@ -1,0 +1,64 @@
+body {
+  font-family: poppins, sans-serif;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.navbar--container {
+  box-shadow: 0px 2.9825618267059326px 7.456404209136963px 0px #0000001A;
+
+}
+
+.navbar--logo {
+  margin:20px 30px;
+}
+
+.hero--container {
+  padding:36px;
+}
+
+.hero--image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 385px;
+  height:232px;
+}
+
+.hero--heading {
+  font-weight: 600;
+  font-size:36px;
+  margin-bottom: 0;
+}
+
+.hero--content {
+  width:320px;
+  line-height: 17px;
+  font-weight: 300;
+}
+
+.card--container {
+  margin-left: 36px;
+}
+
+.card--image {
+    height: 235px;
+    width: 176px;
+}
+
+.card--content {
+  margin:0;
+  font-size:12px;
+  line-height: 22px;
+}
+
+.card--star {
+  height: 14px;
+  width: 14px;
+}
+
+.card--content-light {
+  color:grey;
+}

@@ -1,19 +1,18 @@
 import React from "react";
-import SwimmerImage from '../images/1.png'
 import StarImage from '../images/star.png'
 
-export default function Card() {
+export default function Card(props) {
     return (
         <div className="card--container">
             <div className="card--card">
-                <img className="card--image" src={SwimmerImage}></img>
+                <img className="card--image" src={require(`../images/${props.img}`)}></img>
                 <p className="card--content">
                     <img className="card--star" src={StarImage}></img>
-                    5.0 <text className="card--content-light">(6).USA</text>
+                    {props.rating} <text className="card--content-light">({props.reviewCount}).{props.country}</text>
                     <br />
-                    Life lessons with Katie Zaferes
+                    <text className="card--title">{props.title}</text>
                     <br />
-                    <text className="bold">From $136</text> / person
+                    <text className="bold card--subtitle">From ${props.price}</text> / person
                 </p>
             </div>
         </div>
